@@ -165,6 +165,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "gtc"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "clap",
+ "rustyline",
+]
+
+[[package]]
 name = "heck"
 version = "0.5.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -320,15 +329,6 @@ dependencies = [
  "proc-macro2",
  "quote",
  "unicode-ident",
-]
-
-[[package]]
-name = "trs-c"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "clap",
- "rustyline",
 ]
 
 [[package]]
